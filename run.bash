@@ -10,5 +10,5 @@ if [ -d "${input}" ];  then
        python3 wav2num.py "${each_file}"
     done
 else
-    python3 wav2num.py ${input}
+    python3 wav2num.py "${input}"
 fi
